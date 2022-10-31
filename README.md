@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/product-preview-card-component-_IgMJdn-90)
+- Live Site URL: [Product preview card component](https://brenoviladev.github.io/product-preview-card-component/)
 
 ## My process
 
@@ -78,4 +78,4 @@ I'll focus on using media queries.
 
 - Website - [Breno Vila](https://brenoviladev.github.io/homepage/)
 - Frontend Mentor - [@brenoviladev](https://www.frontendmentor.io/profile/brenoviladev)
-- LinkedIn -(https://www.linkedin.com/in/breno-vila-dev/)
+- LinkedIn - [Profile](https://www.linkedin.com/in/breno-vila-dev/)
