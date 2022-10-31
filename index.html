@@ -16,8 +16,11 @@
 </head>
 
 <body>
-  <div class="container">
-    <div class="product-image"></div>
+  <main class="container" role="main">
+    <picture>
+      <source media="(max-width: 500px)" srcset="./images/image-product-mobile.jpg">
+      <img src="./images/image-product-desktop.jpg" alt="Gabrielle Essence Eau De Parfum">
+    </picture>
 
     <div class="inner-container">
 
@@ -29,7 +32,9 @@
 
       <div class="flex-prices">
         <p class="main-price">$149.99</p>
-        <p class="old-price">$169.99</p>
+        <del class="old-price">
+          <span class="sr-only">Old price: </span>$169.99
+        </del>
       </div>
 
       <button class="add">
@@ -41,12 +46,12 @@
         Add to Cart
       </button>
 
-      <div class="attribution">
+      <div class="attribution" role="info">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-        Coded by <a href="#">brenoviladev</a>.
+        Coded by <a href="https://www.linkedin.com/in/breno-vila-dev/">brenoviladev</a>.
       </div>
     </div>
-  </div>
+  </main>
 </body>
 
 </html>
