@@ -15,12 +15,12 @@ body {
   min-height: 100vh;
   background-color: $cream;
   font-size: 14px;
-  padding: 20px 10px;
 }
 
 .container {
   background-color: white;
   border-radius: 10px;
+  margin: 20px 10px;
 }
 
 img {
@@ -120,7 +120,6 @@ img {
     display: flex;
     max-width: 600px;
     max-height: 450px;
-    margin-top: -40px;
   }
   .inner-container {
     display: flex;
