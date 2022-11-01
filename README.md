@@ -73,7 +73,7 @@ I learned how to use basic media queries and basic sass features
 
 ### Continued development
 
-I'll focus on using media queries and sass.
+I'll focus on using media queries and practicing Sass.
 
 ## Author
 
