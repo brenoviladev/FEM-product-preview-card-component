@@ -38,6 +38,7 @@ img {
 }
 
 .header {
+  line-height: 100%;
   font-size: 32px;
   font-family: 'Fraunces', serif;
   margin: 10px 0;
