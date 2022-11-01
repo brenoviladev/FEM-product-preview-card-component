@@ -1,3 +1,8 @@
+$dark-cyan: hsl(158, 36%, 37%);
+$cream: hsl(30, 38%, 92%);
+$dark-blue: hsl(212, 21%, 14%);
+$grayish-blue: hsl(228, 12%, 48%);
+
 * {
   margin: 0;
   padding: 0;
@@ -8,13 +13,13 @@ body {
   align-items: center; 
   justify-content: center;
   min-height: 100vh;
-  background-color: hsl(30, 38%, 92%);
+  background-color: $cream;
   font-size: 14px;
   padding: 20px 10px;
 }
 
 .container {
-  background-color: #fff;
+  background-color: white;
   border-radius: 10px;
 }
 
@@ -34,7 +39,7 @@ img {
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 5px;
-  color: hsl(228, 12%, 48%);
+  color: $grayish-blue;
 }
 
 .header {
@@ -47,7 +52,7 @@ img {
 
 .description {
   font-family: 'Montserrat', sans-serif;
-  color: hsl(228, 12%, 48%);
+  color: $grayish-blue;
 }
 
 /* Prices */
@@ -60,14 +65,14 @@ img {
 .main-price {
   font-size: 32px;
   margin-right: 20px;
-  color: hsl(158, 36%, 37%);
+  color: $dark-cyan;
   font-family: 'Fraunces', serif;
 }
 
 .old-price {
   font-family: 'Montserrat', sans-serif;
   text-decoration: line-through;
-  color: hsl(228, 12%, 48%);
+  color: $grayish-blue;
 }
 
 .sr-only:not(:focus):not(:active) {
@@ -85,10 +90,10 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: hsl(158, 36%, 37%);
+  background-color: $dark-cyan;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  color: #fff;
+  color: white;
   width: 100%;
   padding: 16px;
   margin-bottom: 12px;
@@ -117,7 +122,7 @@ img {
     max-height: 450px;
     margin-top: -40px;
   }
-  .inner-container{
+  .inner-container {
     display: flex;
     flex-direction: column;
     justify-content: space-around;

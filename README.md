@@ -38,10 +38,11 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
+- Sass
 
 ### What I learned
 
-I learned how to use basic media queries
+I learned how to use basic media queries and basic sass features
 
 ```css
 @media screen and (min-width: 450px) {
@@ -72,7 +73,7 @@ I learned how to use basic media queries
 
 ### Continued development
 
-I'll focus on using media queries.
+I'll focus on using media queries and sass.
 
 ## Author
 
